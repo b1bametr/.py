@@ -5,9 +5,12 @@
 #путем обработки исключения в коде.
 
 
-real = input("Введите сумму: ")
+num = float(input("Введите сумму: ")) 
+try:
+    if num >= 0:
+        print(int(num), " руб.", round((num - int(num)) * 100), " коп.")  # целая часть числа + копейки
 
-if float(real) >= 0:
-	print(real[0:real.find(".")] + " руб." + real[real.find(".")+1:len(real)] + " коп.")
-else:
-	print ("Некорректный формат!")
+    elif num < 0:
+        print("Некорректный формат!")
+except:
+  print("Опаньки, что то пошло не так...")
