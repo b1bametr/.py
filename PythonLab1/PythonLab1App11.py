@@ -1,3 +1,6 @@
+#Напишите генератор frange как аналог range() с дробным шагом.
+#Пример вызова: 
+
 def frange(first, last, step):
     while first <= last:
         yield round(first, 1)
