@@ -6,13 +6,13 @@
 #выражения.
 
 #Пример текста:
-#Biba12455 boba23 Bulbozavr22 Wiver3333 Zerrrrrrr
+#Biba122222 boba23 Bulbozavr22 Wiver3333 Zerrrrrrr
 
 import re
 import string
 
 upper_letters = string.ascii_uppercase
-pattern = re.compile(r'[A-Z]\S\D+\d{2,4}')
+pattern = re.compile(r'[A-Z]\S\D+\d{2}|d{4}')
 text = input('Введите текст: ')
 
 result = re.findall(pattern, text)

@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>bdb600e9-9997-418f-80f9-03819d40e1ac</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>Python2.5.py</StartupFile>
+    <ProjectGuid>dd52103f-11bb-491a-b7e9-91788364c53f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonL2.5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonL2.5</Name>
-    <RootNamespace>Python2.5</RootNamespace>
+    <RootNamespace>PythonL2.5</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python2.5.py" />
+    <Compile Include="PythonL2.5.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
